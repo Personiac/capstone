@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url(images/Bread-wheat-1-8-1.jpg) no-repeat center / cover fixed;
+  background: url(images/bbbg.png) no-repeat center / cover fixed;
   line-height: 1.6;
   color: #333;
   min-height: 100vh;
@@ -17,8 +17,12 @@ body {
 
 /* Header and navigation */
 header {
-  background-color: #333;
+  background-color: rgba(75, 75, 75, 1);
   justify-content: space-between;
+}
+
+li {
+  font-size: 1.1em;
 }
 
 /* Main content */
@@ -58,7 +62,7 @@ h3 {
   padding: 2rem;
   color: #fff; /* White text */
   text-align: left;
-  max-width: 80%; /* Adjust the width as needed */
+  max-width: 100%; /* Adjust the width as needed */
 }
 
 button {
@@ -80,7 +84,7 @@ tr {
 
 /* Footer */
 footer {
-  background-color: #333;
+  background-color: rgba(75, 75, 75, 0.75);
   color: #fff;
   text-align: center;
   padding: 1rem 0;
