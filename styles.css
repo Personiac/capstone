@@ -27,6 +27,12 @@ li.nav-item {
   font-size: 1.2em;
 }
 
+img#bb-logo {
+  width: 4em;
+  height: 4em;
+}
+
+
 /* Main content */
 main {
   padding: 2rem;
@@ -42,6 +48,14 @@ h3 {
   /* color: #fff; */
 }
 
+.card {
+  background-color: rgba(220, 200, 220, 0.8);
+}
+
+div.form-outline {
+  color: black;
+}
+
 /* Products */
 .product {
   margin-bottom: 1rem;
@@ -52,7 +66,7 @@ h3 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100vh;
   height: 100vh; /* Adjust the height as needed */
   display: flex;
   justify-content: left;
@@ -84,10 +98,6 @@ form {
 }
 .remember-me input[type="checkbox"] {
   margin-right: 5px;
-}
-
-.login {
-  
 }
 
 table,
