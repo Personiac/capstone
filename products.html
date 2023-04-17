@@ -15,9 +15,18 @@
   <body>
     <header class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid ">
-          <a class="navbar-brand" href="#">BREAD & BOBA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid">
+          <img src="images/bb-logo.png" alt="Bread & Boba Logo" width="3%" height="3%">
+          <a class="navbar-brand">BREAD & BOBA</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,24 +38,24 @@
                 <a class="nav-link" href="products.html">Products</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Account
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="register.html">Registration</a></li>
                   <li><a class="dropdown-item" href="login.html">Login</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="About">Something else here</a></li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="checkout.html">Checkout</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
@@ -54,63 +63,37 @@
     <main>
       <div class="row">
         <div class="col">
-          <div class="background-image">
+          <!-- <div class="background-image"> -->
             <div class="text-container">
               <section id="home">
-                <h2>Welcome to Basic E-commerce!</h2>
-                <p>Find the best products at the best prices!</p>
-              </section>
-              <section id="products">
                 <h2>Products</h2>
-                <div class="product">
-                  <h3>Product 1</h3>
-                  <p>Price: $10</p>
-                  <button>Add to Cart</button>
-                </div>
-                <div class="product">
-                  <h3>Product 2</h3>
-                  <p>Price: $20</p>
-                  <button>Add to Cart</button>
-                </div>
+                <p>Have some good bread, enjoy some boba tea too!</p>
               </section>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Header 1</th>
-                    <th>Header 2</th>
-                    <th>Header 3</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Row 1, Column 1</td>
-                    <td>Row 1, Column 2</td>
-                    <td>Row 1, Column 3</td>
-                  </tr>
-                  <tr>
-                    <td>Row 2, Column 1</td>
-                    <td>Row 2, Column 2</td>
-                    <td>Row 2, Column 3</td>
-                  </tr>
-                  <tr>
-                    <td>Row 3, Column 1</td>
-                    <td>Row 3, Column 2</td>
-                    <td>Row 3, Column 3</td>
-                  </tr>
-                </tbody>
-              </table>
+              <section id="about">
+                <h2>About</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium recusandae placeat beatae
+                  veniam culpa, explicabo, hic ullam dolorum quod necessitatibus iste voluptas unde ducimus,
+                  reprehenderit fugiat deleniti. Ducimus, non?
+                </p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias officia voluptatibus cumque explicabo
+                  praesentium perspiciatis quasi omnis modi? Adipisci excepturi laborum soluta quaerat laboriosam
+                  debitis saepe quis enim cumque sint!
+                </p>
+              </section>
               <section id="contact">
                 <h2>Contact Us</h2>
                 <p>Phone: 123-456-7890</p>
                 <p>Email: contact@basicecommerce.com</p>
               </section>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
       </div>
     </main>
     <footer>
-      <p>Basic E-commerce project by Jonathan Tran</p>
+      <p>By Jonathan Tran</p>
     </footer>
     <script>
       // When the user scrolls down 20px from the top of the document, slide down the navbar
@@ -119,10 +102,7 @@
       };
 
       function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
           document.getElementById("navbar").style.top = "0";
         } else {
           document.getElementById("navbar").style.top = "-50px";
