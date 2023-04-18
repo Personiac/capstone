@@ -63,16 +63,15 @@
     <main>
       <div class="row">
         <div class="col">
-          <!-- <div class="background-image"> -->
           <div class="text-container">
-            <section class="vh-100" style="background-color: rgba(0, 0, 0, 0)">
-              <div class="container h-100">
+            <section style="background-color: rgba(0, 0, 0, 0)">
+              <!-- <div class="container h-100"> -->
                 <div class="row d-flex justify-content-center align-items-center h-100">
-                  <div class="col-lg-12 col-xl-11">
+                  <div class="col-lg-12 col-xl-12">
                     <div class="card text-black" style="border-radius: 25px">
                       <div class="card-body p-md-5">
                         <div class="row justify-content-center">
-                          <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+                          <div class="col-md-10 col-lg-10 col-xl-8 order-2 order-lg-1">
                             <div class="py-5 text-center">
                               <h2>Checkout form</h2>
                               <p class="lead">
@@ -81,55 +80,89 @@
                                 without completing it.
                               </p>
                             </div>
+                            
                             <div class="row">
                               <div class="col-md-4 order-md-2 mb-4">
-                                <h4 class="d-flex justify-content-between align-items-center mb-3">
-                                  <span class="text-muted">Your cart</span>
-                                  <span class="badge badge-secondary badge-pill">3</span>
-                                </h4>
-                                <ul class="list-group mb-3">
-                                  <li class="list-group-item d-flex justify-content-between lh-condensed">
-                                    <div>
-                                      <h6 class="my-0">Product name</h6>
-                                      <small class="text-muted">Brief description</small>
-                                    </div>
-                                    <span class="text-muted">$12</span>
-                                  </li>
-                                  <li class="list-group-item d-flex justify-content-between lh-condensed">
-                                    <div>
-                                      <h6 class="my-0">Second product</h6>
-                                      <small class="text-muted">Brief description</small>
-                                    </div>
-                                    <span class="text-muted">$8</span>
-                                  </li>
-                                  <li class="list-group-item d-flex justify-content-between lh-condensed">
-                                    <div>
-                                      <h6 class="my-0">Third item</h6>
-                                      <small class="text-muted">Brief description</small>
-                                    </div>
-                                    <span class="text-muted">$5</span>
-                                  </li>
-                                  <li class="list-group-item d-flex justify-content-between bg-light">
-                                    <div class="text-success">
-                                      <h6 class="my-0">Promo code</h6>
-                                      <small>EXAMPLECODE</small>
-                                    </div>
-                                    <span class="text-success">-$5</span>
-                                  </li>
-                                  <li class="list-group-item d-flex justify-content-between">
-                                    <span>Total (USD)</span>
-                                    <strong>$20</strong>
-                                  </li>
-                                </ul>
-
-                                <form class="card p-2">
-                                  <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Promo code" />
-                                    <div class="input-group-append">
-                                      <button type="submit" class="btn btn-secondary">Redeem</button>
-                                    </div>
-                                  </div>
-                                </form>
+                                  <table>
+                                      <tr>
+                                        <td>
+                                      <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-muted">Your cart</span>
+                                        <span class="badge badge-secondary badge-pill" style="color:black">3 items</span>
+                                      </h4>
+                                    </td>
+                                  </tr>
+                                  <ul class="list-group mb-3">
+                                    
+                                      <tr>
+                                    <td>
+                                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                          <div>
+                                            <h6 class="my-0">Cranberry Milk Tea</h6>
+                                            <small class="text-muted">Cranberry and cinnamon tea.</small>
+                                          </div>
+                                          <span class="text-muted">$12</span>
+                                        </li>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                          <div>
+                                            <h6 class="my-0">Ohio Special</h6>
+                                            <small class="text-muted">Dragonfruit, coconut, and coffee.</small>
+                                          </div>
+                                          <span class="text-muted">$8</span>
+                                        </li>
+                                      </td>
+                                      </tr>
+                                    <tr>
+                                        <td>
+                                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                          <div>
+                                            <h6 class="my-0">Florida Sunset</h6>
+                                            <small class="text-muted">Passion fruit and orange tea.</small>
+                                          </div>
+                                          <span class="text-muted">$5</span>
+                                        </li>
+                                      </td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                          <div>
+                                            <h6 class="my-0">Promo Code</h6>
+                                            <small class="text-muted">Successfully applied!</small>
+                                          </div>
+                                          <span class="text-muted">-$5</span>
+                                        </li>
+                                      </td>
+                                      </tr>
+                                    <tr>
+                                    <td>
+                                        <li class="list-group-item d-flex justify-content-between bg-light">
+                                          <form class="card p-2">
+                                            <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Promo code" />
+                                            <div class="input-group-append">
+                                              <button type="submit" class="btn btn-secondary">Redeem</button>
+                                            </div>
+                                          </div>
+                                        </form>
+                                        </li>
+                                      </td>
+                                      </tr>
+                                      <tr>
+                                      <td>
+                                        <li class="list-group-item d-flex justify-content-between">
+                                          <span>Total (USD)</span>
+                                          <strong>$20</strong>
+                                        </li>
+                                      </td>
+                                    </tr>
+                                    </ul>
+                                </table>
+                                  
                               </div>
                               <div class="col-md-8 order-md-1">
                                 <h4 class="mb-3">Billing address</h4>
@@ -214,6 +247,7 @@
                                       <select class="custom-select d-block w-100" id="country" required>
                                         <option value="">Choose...</option>
                                         <option>United States</option>
+                                        <option>Other</option>
                                       </select>
                                       <div class="invalid-feedback">Please select a valid country.</div>
                                     </div>
@@ -221,7 +255,8 @@
                                       <label for="state">State</label>
                                       <select class="custom-select d-block w-100" id="state" required>
                                         <option value="">Choose...</option>
-                                        <option>California</option>
+                                        <option value="Ohio">Ohio</option>
+                                        <option value="Florida">Florida</option>
                                       </select>
                                       <div class="invalid-feedback">Please provide a valid state.</div>
                                     </div>
@@ -329,10 +364,11 @@
             </section>
           </div>
         </div>
-      </div>
     </main>
     <footer>
-      <p>By Jonathan Tran</p>
+      <div class="container">
+        <p>By Jonathan Tran</p>
+      </div>
     </footer>
     <script>
       // When the user scrolls down 20px from the top of the document, slide down the navbar
