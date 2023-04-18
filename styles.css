@@ -32,6 +32,11 @@ img#bb-logo {
   height: 4em;
 }
 
+img#bb-logo2 {
+  width: 5em;
+  height: 5em;
+}
+
 
 /* Main content */
 main {
@@ -90,14 +95,6 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-
-.remember-me {
-  display: flex;
-  align-items: center;
-}
-.remember-me input[type="checkbox"] {
-  margin-right: 5px;
 }
 
 table,
