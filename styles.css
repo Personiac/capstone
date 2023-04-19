@@ -37,6 +37,14 @@ img#bb-logo2 {
   height: 5em;
 }
 
+img#cs-award {
+  width: 9em;
+  height: 9em;
+}
+
+/* .col,.row {
+  border: solid black 5px;
+} */
 
 /* Main content */
 main {
